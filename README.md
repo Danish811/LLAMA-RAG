@@ -3,11 +3,11 @@
 Ask Your PDFs is a RAG application that allows you to ask questions about your PDFs. 
 It uses:
 - Langchain,
-- Llama3 from Groq
+- Llama3 from Groq and HuggingFace
 - Cohere embeddings
 - FAISS Vector DB
 
-Testing on sofcopy of Reinforcement Learning Book:
+Testing on soft copy of Reinforcement Learning Book:
 
 Pages: 162
 
