@@ -20,9 +20,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ['HUGGINGFACEHUB_API_TOKEN']="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"
-groq_api_key = "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"
-cohere_api_key="OPjhvAPIz2uCvs2p3kHT4GbL9dBdrhauYDN61YTR"
+os.environ['HUGGINGFACEHUB_API_TOKEN']= "Your_HUGGINGFACE_API_Token"
+groq_api_key = "Groq_api_key"
+cohere_api_key="Cohere API Key"
 
 
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
